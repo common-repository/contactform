@@ -1,0 +1,44 @@
+#navmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+#navmenu li {
+	display: inline;
+}
+
+#navmenu ul li a {
+	text-decoration: none;
+	margin: 4px;
+	padding: 5px;
+}
+
+#navmenu ul li a:hover {
+	color: purple;
+}
+
+#form_builder {
+	width: 100%;
+}
+
+#form_builder td {
+	padding: 5px 10px;
+	vertical-align: middle;
+}
+
+#form_builder .drag {
+	width: 20px;
+	cursor: move;
+}
+
+#form_builder .plus_btn, #form_builder .minus_btn {
+	width: 20px;
+	cursor: pointer;
+}
+
+#form_builder input[type =
+"text"], #form_builder select {
+	width: 100%;
+}
